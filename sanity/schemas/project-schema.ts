@@ -10,7 +10,8 @@ const project = {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
-      options: { source: 'name' }
+      options: { source: 'name' },
+      validation: (Rule: any) => Rule.required(),
    }, {
       name: 'image',
       title: 'Image',
