@@ -1,9 +1,8 @@
 import { PortableTextBlock } from "sanity";
 
-export type Page = {
+export type Aftercare = {
    _id: string;
    _createdAt: Date;
-   name: string;
-   slug: string;
+   title: string;
    content: PortableTextBlock[];
 };

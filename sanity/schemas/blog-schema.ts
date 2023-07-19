@@ -1,6 +1,6 @@
 const blog = {
    name: 'blog',
-   title: 'Blogs',
+   title: 'Blogs Page',
    type: 'document',
    fields: [{
       name: 'name',
